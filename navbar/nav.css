@@ -1,0 +1,103 @@
+.parent {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 5%;
+    height: 50px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: aqua;
+    border: 2px solid #c3c3c3;
+
+}
+
+.main-nav {
+    display: none;
+    
+
+}
+.search {
+    margin-top: 40px;
+
+}
+
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a:hover{
+    border-bottom-style: groove;
+    padding: 0;
+    }
+ul li a{
+    color: red;
+    font-size: 1.5rem ;
+text-decoration: none;
+}
+
+
+.search input[type=text] {
+    padding: 6px;
+    margin-top: 6px;
+    font-size: 15px;
+    border: 1px solid 1px;
+
+  }
+
+  .search button{
+    float: right;
+    padding: 8px 10px;
+    margin-top: 6px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .collapse {
+    width: 100%;
+    padding: 10px 20px;
+    background: #001f44;
+    text-align: right;
+    box-sizing: border-box;
+    color: #ffff;
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .collapse{
+        display:block;
+    }
+
+    .collapse {
+        display: block;
+    }
+    .search{
+    display: none;
+    }
+    ul {
+        width: 100%;
+        display: none;
+    }
+
+    ul li {
+        display: block;
+        text-align: center;
+    }
+
+.active 
+{
+    display: block;
+}
+    
+}

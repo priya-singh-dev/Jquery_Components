@@ -1,0 +1,44 @@
+
+.div2 
+{
+    width: 40vmax;
+    height: 50%;
+    background: chartreuse;
+     display: none; 
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+  }
+  
+.btn1
+{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    margin-left: 40px;
+
+    
+}
+ div2  .btn{
+    padding-left: 10%;
+    float: right;
+
+}
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
